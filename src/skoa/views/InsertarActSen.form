@@ -1,0 +1,173 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.6" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <Properties>
+    <Property name="title" type="java.lang.String" resourceKey="Form.title"/>
+    <Property name="name" type="java.lang.String" value="Form" noResource="true"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLTipo" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLSubtipo" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLNombre" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jTFNombre" pref="174" max="32767" attributes="1"/>
+                          <Component id="jCBSubtipo" pref="174" max="32767" attributes="1"/>
+                          <Component id="jCBTipo" alignment="0" pref="174" max="32767" attributes="1"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jLDirgrupo" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                      <Component id="jTFDirgrupo" pref="172" max="32767" attributes="1"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="1">
+                      <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
+                      <Component id="jBAceptar" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jBCancelar" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLTipo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jCBTipo" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLSubtipo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jCBSubtipo" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLNombre" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jTFNombre" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLDirgrupo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jTFDirgrupo" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jBCancelar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jBAceptar" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="26" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLTipo">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="jLTipo.font"/>
+        <Property name="text" type="java.lang.String" resourceKey="jLTipo.text"/>
+        <Property name="name" type="java.lang.String" value="jLTipo" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLSubtipo">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="jLSubtipo.font"/>
+        <Property name="text" type="java.lang.String" resourceKey="jLSubtipo.text"/>
+        <Property name="name" type="java.lang.String" value="jLSubtipo" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLDirgrupo">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="jLDirgrupo.font"/>
+        <Property name="text" type="java.lang.String" resourceKey="jLDirgrupo.text"/>
+        <Property name="name" type="java.lang.String" value="jLDirgrupo" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="jCBTipo">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="jCBTipo.font"/>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="0"/>
+        </Property>
+        <Property name="name" type="java.lang.String" value="jCBTipo" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="jCBSubtipo">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="jCBSubtipo.font"/>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="0"/>
+        </Property>
+        <Property name="name" type="java.lang.String" value="jCBSubtipo" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTFDirgrupo">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="jTFDirgrupo.font"/>
+        <Property name="text" type="java.lang.String" resourceKey="jTFDirgrupo.text"/>
+        <Property name="name" type="java.lang.String" value="jTFDirgrupo" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jBAceptar">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="jBAceptar.font"/>
+        <Property name="text" type="java.lang.String" resourceKey="jBAceptar.text"/>
+        <Property name="name" type="java.lang.String" value="jBAceptar" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBAceptarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jBCancelar">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="jBCancelar.font"/>
+        <Property name="text" type="java.lang.String" resourceKey="jBCancelar.text"/>
+        <Property name="name" type="java.lang.String" value="jBCancelar" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBCancelarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLNombre">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="jLNombre.font"/>
+        <Property name="text" type="java.lang.String" resourceKey="jLNombre.text"/>
+        <Property name="name" type="java.lang.String" value="jLNombre" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTFNombre">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="jTFNombre.text"/>
+        <Property name="name" type="java.lang.String" value="jTFNombre" noResource="true"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>

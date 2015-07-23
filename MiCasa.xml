@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<vivienda name="prueba" logo="Viv. Mi casa" contador="30"> 
+  <email direccion="sadasdas"/>  
+  <planta alias="2"/>  
+  <planta alias="23"/>  
+  <planta alias="12"/>  
+  <planta alias="123"/>  
+  <planta alias="ª1"/> 
+</vivienda>

@@ -1,0 +1,30 @@
+
+<vivienda name="Casa" logo="Viv. Casa" contador="3"> 
+  <email direccion=""/>  
+  <planta alias="2"> 
+    <estancia nombre="e2" imagen="imagenes_demo/02vestibulo.png"> 
+      <actuadores regulacion="no" conmutacion="no" persianas="no" electrovalvula="no"/>  
+      <sensores puerta="no" movimiento="no" temperatura="no" combinado="no" inundacion="no" contadores="no"/>  
+      <iconos/>  
+      <cantidad blinds="0" lucreg="0" bombs="0" valves="0" doors="0" presencia="0"/> 
+    </estancia> 
+  </planta>  
+  <planta alias="3"> 
+    <estancia nombre="e3" imagen="imagenes_demo/05dormitorio.png"> 
+      <actuadores regulacion="no" conmutacion="no" persianas="no" electrovalvula="no"/>  
+      <sensores puerta="no" movimiento="no" temperatura="no" combinado="no" inundacion="no" contadores="no"/>  
+      <iconos/>  
+      <cantidad blinds="0" lucreg="0" bombs="0" valves="0" doors="0" presencia="0"/> 
+    </estancia> 
+  </planta>  
+  <planta alias="4"> 
+    <estancia nombre="e4" imagen="imagenes_demo/07dormitorio.png"> 
+      <actuadores regulacion="no" conmutacion="no" persianas="no" electrovalvula="si"/>  
+      <sensores puerta="no" movimiento="no" temperatura="no" combinado="no" inundacion="no" contadores="no"/>  
+      <iconos> 
+        <label tipo="electrovalvula" x="100" y="336" ancho="50" largo="60" id="000002" direccionGrupo="12/63" tipoEstructura="0x01" subtipo="1.010"/> 
+      </iconos>  
+      <cantidad blinds="0" lucreg="0" bombs="0" valves="1" doors="0" presencia="0"/> 
+    </estancia> 
+  </planta> 
+</vivienda>

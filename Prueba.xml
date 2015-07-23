@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<vivienda name="Micasa" logo="Viv. Micasa" contador="2"> 
+  <email direccion=""/>  
+  <planta alias="2"> 
+    <estancia nombre="sad" imagen="imagenes_demo/02dormitorio.png"> 
+      <actuadores regulacion="no" conmutacion="no" persianas="no" electrovalvula="no"/>  
+      <sensores puerta="no" movimiento="no" temperatura="no" combinado="no" inundacion="no" contadores="no"/>  
+      <iconos/>  
+      <cantidad blinds="0" lucreg="0" bombs="0" valves="0" doors="0" presencia="0"/> 
+    </estancia>  
+    <estancia nombre="asasds" imagen="imagenes_micasa/despensa.jpg"> 
+      <actuadores regulacion="no" conmutacion="no" persianas="no" electrovalvula="no"/>  
+      <sensores puerta="no" movimiento="no" temperatura="no" combinado="no" inundacion="no" contadores="no"/>  
+      <iconos/>  
+      <cantidad blinds="0" lucreg="0" bombs="0" valves="0" doors="0" presencia="0"/> 
+    </estancia> 
+  </planta>  
+  <planta alias="12"/>  
+  <planta alias="444"/>  
+  <planta alias="ª1"> 
+    <estancia nombre="asd" imagen="imagenes_micasa/cuarto servicio.jpg"> 
+      <actuadores regulacion="no" conmutacion="no" persianas="no" electrovalvula="no"/>  
+      <sensores puerta="no" movimiento="no" temperatura="no" combinado="no" inundacion="no" contadores="no"/>  
+      <iconos/>  
+      <cantidad blinds="0" lucreg="0" bombs="0" valves="0" doors="0" presencia="0"/> 
+    </estancia> 
+  </planta> 
+</vivienda>

@@ -1,0 +1,183 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.6" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="title" type="java.lang.String" resourceKey="Form.title"/>
+    <Property name="name" type="java.lang.String" value="Form" noResource="true"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="scroll_List" alignment="0" pref="334" max="32767" attributes="0"/>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="l_muestreo_corto" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="l_major_largo" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="18" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="tf_intervalo_largo" alignment="0" min="0" pref="0" max="32767" attributes="1"/>
+                          <Component id="tf_intervalo" alignment="0" pref="53" max="32767" attributes="1"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="b_Activar" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                      <Component id="b_Desactivar" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="105" max="32767" attributes="0"/>
+                      <Component id="b_Cancel" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="l_fichero_contadores" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="tf_fichero_contadores" pref="122" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="scroll_List" min="-2" pref="100" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="l_muestreo_corto" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tf_intervalo" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="l_major_largo" min="-2" max="-2" attributes="0"/>
+                  <Component id="tf_intervalo_largo" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="l_fichero_contadores" min="-2" max="-2" attributes="0"/>
+                  <Component id="tf_fichero_contadores" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="40" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="b_Activar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="b_Cancel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="b_Desactivar" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="scroll_List">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="scroll_List" noResource="true"/>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JList" name="list_Point">
+          <Properties>
+            <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+              <StringArray count="0"/>
+            </Property>
+            <Property name="name" type="java.lang.String" value="list_Point" noResource="true"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="l_muestreo_corto">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="l_muestreo_corto.font"/>
+        <Property name="text" type="java.lang.String" resourceKey="l_muestreo_corto.text"/>
+        <Property name="name" type="java.lang.String" value="l_muestreo_corto" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tf_intervalo">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="tf_intervalo.text"/>
+        <Property name="name" type="java.lang.String" value="tf_intervalo" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="l_major_largo">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="l_major_largo.font"/>
+        <Property name="text" type="java.lang.String" resourceKey="l_major_largo.text"/>
+        <Property name="name" type="java.lang.String" value="l_major_largo" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tf_intervalo_largo">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="tf_intervalo_largo.text"/>
+        <Property name="name" type="java.lang.String" value="tf_intervalo_largo" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="l_fichero_contadores">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="l_fichero_contadores.font"/>
+        <Property name="text" type="java.lang.String" resourceKey="l_fichero_contadores.text"/>
+        <Property name="name" type="java.lang.String" value="l_fichero_contadores" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tf_fichero_contadores">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="tf_fichero_contadores.font"/>
+        <Property name="text" type="java.lang.String" resourceKey="tf_fichero_contadores.text"/>
+        <Property name="name" type="java.lang.String" value="tf_fichero_contadores" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="b_Activar">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="b_Activar.font"/>
+        <Property name="text" type="java.lang.String" resourceKey="b_Activar.text"/>
+        <Property name="name" type="java.lang.String" value="b_Activar" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="b_ActivarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="b_Desactivar">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="b_Desactivar.font"/>
+        <Property name="text" type="java.lang.String" resourceKey="b_Desactivar.text"/>
+        <Property name="name" type="java.lang.String" value="b_Desactivar" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="b_DesactivarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="b_Cancel">
+      <Properties>
+        <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+          <action class="skoa.views.LecturaPeriodica" id="cerrarLectPeriodica" methodName="cerrarLectPeriodica"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" resourceKey="b_Cancel.font"/>
+        <Property name="text" type="java.lang.String" resourceKey="b_Cancel.text"/>
+        <Property name="name" type="java.lang.String" value="b_Cancel" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="b_CancelActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>

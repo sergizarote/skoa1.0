@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<vivienda name="InmaCasa" logo="Viv. InmaCasa" contador="7"> 
+  <email direccion="inmaculada.rn@gmail.com"/>  
+  <planta alias="Planta1"> 
+    <estancia nombre="Aseo" imagen="C:\Users\Inma\Desktop\presentacion\ejecutable SKoA\imagenes de planta_PlantaBaja\aseo.jpg"> 
+      <actuadores regulacion="si" conmutacion="si" persianas="si" electrovalvula="no"/>  
+      <sensores puerta="no" movimiento="si" temperatura="no" combinado="no" inundacion="si" contadores="no"/>  
+      <iconos> 
+        <label tipo="regulacion" x="71" y="425" ancho="50" largo="60" id="000002" direccionGrupo="1/1/12" tipoEstructura="0x03" subtipo="1.007"/>  
+        <label tipo="conmutacion" x="153" y="284" ancho="50" largo="60" id="000003" direccionGrupo="3/1/1" tipoEstructura="0x01" subtipo="1.002"/>  
+        <label tipo="movimiento" x="192" y="411" ancho="50" largo="60" id="000004" direccionGrupo="1/1/15" tipoEstructura="0x01" subtipo="1.002"/>  
+        <label tipo="persianas" x="118" y="143" ancho="50" largo="60" id="000005" direccionGrupo="2/1/2" tipoEstructura="0x01" subtipo="1.008"/> 
+      </iconos>  
+      <cantidad blinds="1" lucreg="1" bombs="1" valves="0" doors="0" presencia="1"/> 
+    </estancia> 
+  </planta>  
+  <planta alias="Planta2"/> 
+</vivienda>

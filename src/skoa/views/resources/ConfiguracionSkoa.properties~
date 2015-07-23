@@ -1,0 +1,14 @@
+# Application global resources
+
+title = ----- Configuraci\u00f3n Vivienda -----
+Application.title = SKoA - SCADA Konnex Autoconfigurable
+Application.version = 1.0
+Application.vendor = David Monn\u00e9 Ch\u00e1vez
+Application.homepage = http://appframework.dev.java.net
+Application.description = A simple java desktop application based on Swing Application Framework
+Application.vendorId = Sun
+Application.id = maipez
+Application.lookAndFeel = system
+quit.Action.accelerator=ctrl pressed Q
+quit.Action.shortDescription=
+quit.Action.text=Salir

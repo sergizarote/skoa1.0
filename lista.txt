@@ -1,0 +1,3 @@
+mysql> select DG,DF into outfile '//media//data//jorge//proyectos//sergi-proyecto//skoa//skoa//lista.txt' from Dirs;
+ERROR 1 (HY000): Can't create/write to file '/media/data/jorge/proyectos/sergi-proyecto/skoa/skoa/lista.txt' (Errcode: 13)
+mysql> exit
